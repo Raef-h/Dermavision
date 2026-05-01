@@ -1,0 +1,6 @@
+TFLITE OPTIMIZATION RESULTS
+Original Size: 10.43 MB
+TFLite Size: 2.71 MB
+Compression: 3.9x
+Original Accuracy: 69.56%
+TFLite Accuracy: 70.00%

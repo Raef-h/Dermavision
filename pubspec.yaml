@@ -1,0 +1,42 @@
+name: dermavision
+description: Dermavision — AI-powered on-device skin lesion classifier
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # TFLite inference — 0.11.0 bundles TFLite runtime with FULLY_CONNECTED v12 support
+  tflite_flutter: 0.11.0
+
+  # Image picking
+  image_picker: ^1.1.2
+
+  # Pure-Dart image processing (resize, decode — memory-safe)
+  image: ^4.2.0
+
+  # Design
+  google_fonts: ^6.2.1
+  flutter_animate: ^4.5.0
+
+  # Permissions
+  permission_handler: ^11.3.1
+
+  # Utilities
+  path_provider: ^2.1.4
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/labels.json
+    - assets/model/dermavision_optimized.tflite
+    - assets/images/

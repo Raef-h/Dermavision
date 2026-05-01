@@ -1,0 +1,32 @@
+﻿==============================================================
+  TFLite Binary Inspector (no tensorflow required)
+==============================================================
+
+  Model file size: 2.71 MB (2,836,408 bytes)
+  File identifier: b'TFL3'
+  [OK] Valid TFLite FlatBuffer signature detected
+
+  Root table offset: 0x1C
+
+  flatbuffers version: 25.12.19
+  [OK] flatbuffers package is available
+
+  Raw scan heuristics:
+    TFL3 markers count  : 1
+    'tensor' occurrences: 0
+
+  Architecture markers found in model: ['depthwise']
+  [OK] Model contains MobileNet-related operators ù consistent with skin lesion classifier
+
+  [WARN] Could not find shape [224,224,3] as raw bytes (may be encoded differently)
+  Info: value '7' appears 4 times as int32 in the binary (may include output shape)
+
+  File integrity:
+    MD5    : d3a3ca00efb8b67964d5d98734b06902
+    SHA256 : 0936ed559a14b14a9af843e8d42cf594c80220c3d775fafa8a5744b0e301a4a3
+  [OK] File is readable and intact (2,836,408 bytes)
+
+==============================================================
+  Binary inspection complete.
+  To run full inference test, tensorflow must be installed.
+==============================================================

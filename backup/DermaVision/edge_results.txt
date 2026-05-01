@@ -1,0 +1,4 @@
+EDGE DEPLOYMENT RESULTS
+Model Size: 2.71 MB
+Accuracy: 72.0%
+Avg Inference: 10.68 ms

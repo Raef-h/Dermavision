@@ -1,0 +1,11 @@
+tensorflow
+pandas
+numpy
+matplotlib
+scikit-learn
+pillow
+tqdm
+kaggle
+flwr[simulation]
+seaborn
+jupyter
