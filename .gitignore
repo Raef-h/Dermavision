@@ -50,3 +50,11 @@ ham10000_data/
 
 # tensorflow
 tf-env/
+venv/
+backup/
+*.zip
+*.npy
+*.csv
+*.apk
+*.so
+*.dll
