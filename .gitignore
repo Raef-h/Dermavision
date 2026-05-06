@@ -26,35 +26,38 @@ migrate_working_dir/
 # Flutter/Dart/Pub related
 **/doc/api/
 **/ios/Flutter/.last_build_id
-.dart_tool/
-.flutter-plugins-dependencies
-.pub-cache/
-.pub/
-/build/
-/coverage/
-
-# Symbolication related
-app.*.symbols
-
-# Obfuscation related
-app.*.map.json
+**/.dart_tool/
+**/.flutter-plugins-dependencies
+**/.pub-cache/
+**/.pub/
+**/build/
+**/coverage/
 
 # Android Studio will place build artifacts here
-/android/app/debug
-/android/app/profile
-/android/app/release
+**/android/app/debug
+**/android/app/profile
+**/android/app/release
 
+# ML Data & Environments
+**/ham10000_data/
+**/tf-env/
+**/venv/
+**/backup/
+**/logs/
+**/results/
+**/*.npy
+**/*.csv
+**/*.zip
+**/*.apk
 
-# dataset
-ham10000_data/
+# Native Libraries (Downloaded by setup script)
+**/*.so
+**/*.dll
+**/*.dylib
+**/*.aar
 
-# tensorflow
-tf-env/
-venv/
-backup/
-*.zip
-*.npy
-*.csv
-*.apk
-*.so
-*.dll
+# Secrets
+**/.env
+**/*.keystore
+**/*.jks
+

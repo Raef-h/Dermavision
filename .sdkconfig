@@ -1,0 +1,4 @@
+# Dermavision SDK Configuration
+flutter=3.35.7
+dart=3.9.2
+python=3.9

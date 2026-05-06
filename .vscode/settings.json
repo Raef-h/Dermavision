@@ -1,3 +1,12 @@
 {
-    "java.configuration.updateBuildConfiguration": "interactive"
-}
+    "java.configuration.updateBuildConfiguration": "interactive",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.organizeImports": "explicit"
+    },
+    "dart.doNotFormatOnSave": false,
+    "dart.sdkPath": ".fvm/flutter_sdk",
+    "dart.analysisExcludedFolders": [
+        "build/"
+    ]
+}
