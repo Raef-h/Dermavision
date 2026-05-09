@@ -1,6 +1,6 @@
 # Dermavision Project Structure
 
-This project is organized into two main parts: the mobile application and the machine learning research.
+This project is organized into two main parts: the mobile application and the machine learning & federated learning research.
 
 ## Directory Structure
 
